@@ -1,0 +1,43 @@
+/* @font-face {font-family:'Montserrat';src:url('/css/Montserrat-Regular.ttf') format('truetype');}; */
+
+body {font-family: "Montserrat",Arial,sans-serif;font-size:18px;}
+
+h1,h2,h3,h4,h5,h6 {font-family: "Montserrat",Arial,sans-serif;}
+h1 {font-size:40px;font-weight:600;letter-spacing:4px;color:#466522;}
+h2 {font-size:30px;font-weight:600;letter-spacing:2px;color:#547a29;overflow:hidden;}
+h3 {font-size:26px;font-weight:600;letter-spacing:1px;}
+a {text-decoration:none;}
+small {font-size:12px;font-weight:400;}
+
+.lc-top {padding:0px 0px !important;letter-spacing:0.05em;}
+.lc-content {width:100%;}
+.lc-section {height:auto;padding-top:40px;padding-bottom:16px;}
+.lc-row {width:100%;max-width:1200px;margin:0px auto;padding: 0px 16px;height:content;height:-moz-fit-content;}
+.lc-cell {padding: 0px 16px;}
+.lc-card {padding: 16px 16px;}
+.lc-links {margin-top:10px;padding:10px;}
+.lc-links  a:hover {color:#000 !important;}
+
+.lc-logo-left {height:64px;float:left;margin-right:16px;}
+.lc-logo-right {height:64px;float:right;margin-left:16px;}
+
+.lc-icontext {font-family: "Montserrat",Arial,sans-serif;font-size:24px;font-weight:600;letter-spacing:0.01em;}
+.lc-vmiddle {vertical-align: middle;}
+.lc-hover-white:hover {color:#fff !important}
+.lc-hover-black:hover {color:#000 !important}
+.lc-hover-l5:hover {color:#f8fbf4 !important}
+.lc-hover-l4:hover {color:#e8f3db !important}
+.lc-hover-l3:hover {color:#d1e7b7 !important}
+.lc-hover-l2:hover {color:#b9db93 !important}
+.lc-hover-l1:hover {color:#a2cf6f !important}
+.lc-hover-d1:hover {color:#7eb63d !important}
+.lc-hover-d2:hover {color:#70a236 !important}
+.lc-hover-d3:hover {color:#628e2f !important}
+.lc-hover-d4:hover {color:#547a29 !important}
+.lc-hover-d5:hover {color:#466522 !important}
+.lc-text-l5 {color:#f8fbf4 !important}
+.lc-text-l4 {color:#e8f3db !important}
+.lc-text-l3 {color:#d1e7b7 !important}
+.lc-text-l2 {color:#b9db93 !important}
+.lc-text-l1 {color:#a2cf6f !important}
+.lc-text-d5 {color:#466522 !important}

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<title>LibreCAD - Free Open Source 2D CAD</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/css/w3.css">
+<link rel="stylesheet" href="/css/w3-theme-light-green.css">
+<link rel="stylesheet" href="/css/librecad.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+<body>
+
+<!-- Navbar (fixed on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme-l3 w3-padding w3-card lc-top">
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-left">
+        <a href="#home" class="w3-bar-item w3-button w3-hover-theme">
+            <img src="/img/logo.png" alt="LibreCAD Logo" width="150">
+        </a>
+    </div>
+    <div class="w3-right w3-hide-small w3-hide-medium">
+        <a href="#home" class="w3-bar-item w3-button w3-hover-theme">Home</a>
+        <a href="#about" class="w3-bar-item w3-button w3-hover-theme">About</a>
+      <a href="#features" class="w3-bar-item w3-button w3-hover-theme">Features</a>
+      <a href="#download" class="w3-bar-item w3-button w3-hover-theme">Download</a>
+      <a href="#joinus" class="w3-bar-item w3-button w3-hover-theme">Join us</a>
+      <a href="#sponsors" class="w3-bar-item w3-button w3-hover-theme">Sponsos and Friends</a>
+    </div>
+  </div>
+</div>
+
+<!-- Page content -->
+<div class="lc-content">
+
+    <!-- Home -->
+    <section id="home" class="w3-section lc-section">
+
+        <!-- Links -->
+        <div class="w3-theme-d4 lc-links lc-text-l4">
+            <div class="w3-row lc-row">
+                <div class="w3-cell w3-quarter w3-cell-middle w3-center w3-mobile lc-cell">
+                    <a href="https://webchat.freenode.net/" target="_blank"><i class="fa fa-comments"></i> IRC #librecad</a>
+                    <br>
+                    <a href="https://librecad.zulipchat.com/" target="_blank"><i class="fa fa-comments"></i> Zulip chat</a>
+                </div>
+
+                <div class="w3-cell w3-quarter w3-cell-middle w3-center w3-mobile lc-cell">
+                    <a href="http://forum.librecad.org/" target="_blank"><i class="fa fa-users"></i> Forum</a>
+                    <br>
+                    <a href="http://blog.librecad.org/" target="_blank"><i class="fa fa-comment"></i> Blog</a>
+                </div>
+
+                <div class="w3-cell w3-quarter w3-cell-middle w3-center w3-mobile lc-cell">
+                    <a href="http://wiki.librecad.org/" target="_blank"><i class="fa fa-book"></i> Wiki</a>
+                    <br>
+                    <a href="https://translate.librecad.org/" target="_blank"><i class="fa fa-language"></i> Translate</a>
+                </div>
+
+                <div class="w3-cell w3-quarter w3-cell-middle w3-center w3-mobile lc-cell">
+                    <a href="http://github.com/LibreCAD/LibreCAD" target="_blank"><i class="fa fa-github"></i> Github</a>
+                    <br>
+                    <a href="http://sourceforge.net/projects/librecad" target="_blank"><i class="fa fa-download"></i> SourceForge</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Welcome -->
+        <div class="w3-row lc-row w3-white">
+            <div class="w3-cell w3-half w3-cell-middle w3-mobile lc-cell">
+                <h1><strong>LibreCAD</strong></h1>
+                <h2>Open Source 2D-CAD</h2>
+                <p><strong>LibreCAD</strong> is a free Open Source CAD application for Windows, Apple and Linux. Support and documentation is free from our large, dedicated community of users, contributors and developers.</p>
+                <p><b>You, too, can also get involved!</b></p>
+            </div>
+            <div class="w3-cell w3-half w3-cell-middle w3-mobile lc-cell">
+                <img src="/img/welcome.png" alt="LibreCAD Screen Shot" width=500 class="w3-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="w3-section lc-section w3-theme-l1">
+        <div class="w3-row lc-row">
+            <div class="w3-cell w3-third w3-cell-middle w3-mobile lc-cell">
+                <img src="/img/splash.png" alt="LibreCAD Splash Screen" width=500 class="w3-image">
+            </div>
+            <div class="w3-cell w3-twothird w3-cell-middle w3-mobile lc-cell">
+                <h1>About us</h1>
+                <h2>How it started</h2>
+                <p><strong>LibreCAD</strong> started as a project to build CAM capabilities into the community version of QCad for use with a Mechmate CNC router.</p>
+                <p>Since QCad CE was built around the outdated Qt3 library, it had to be ported to Qt4 before additional enhancements. This gave rise to CADuntu.</p>
+                <p>The project was known as CADuntu only for a couple of months before the community decided that the name was inappropriate. After some discussion within the community and research on existing names, CADuntu was renamed to <strong>LibreCAD</strong>.</p>
+                <p>Porting the rendering engine to Qt4 proved to be a large task, so <strong>LibreCAD</strong> initially still depended on the Qt3 support library.
+                   The Qt4 porting was completed eventually during the development of 2.0.0 series, thanks to our master developer Rallaz, and <strong>LibreCAD</strong> has become Qt3 free except in the 1.0.0 series.</p>
+                   <p>Meanwhile, for <strong>LibreCAD</strong> 2.2.0 series, Qt5 is mandatory.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="w3-section lc-section w3-white">
+        <div class="w3-container w3-center lc-row">
+            <h1>LibreCAD Features</h1>
+			<p><strong>LibreCAD</strong> is a feature-packed and mature 2D-CAD application with some really great advantages:</p>
+        </div>
+        <div class="w3-row lc-row">
+            <div class="w3-cell w3-third w3-cell-middle w3-center w3-mobile lc-cell">
+                <i class="fa fa-tag fa-3x"></i>
+                <h2>Completely and Utterly Free</h2>
+                <p>No worry about trials, subscriptions, license costs or annual fees.</p>
+            </div>
+
+            <div class="w3-cell w3-third w3-cell-middle w3-center w3-mobile lc-cell">
+                <i class="fa fa-users fa-3x"></i>
+                <h2>Open Source and GPLv2</h2>
+                <p>Developed by an experienced team and supported by an awesome community, <strong>LibreCAD</strong> is also free to hack and copy.</p>
+            </div>
+
+            <div class="w3-cell w3-third w3-cell-middle w3-center w3-mobile lc-cell">
+                <i class="fa fa-language fa-3x"></i>
+                <h2>No Language Barriers</h2>
+                <p>It's available in over 30 langauges with cross-platform support for macOS, Windwows, and Linux.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download -->
+    <section id="download" class="w3-section lc-section w3-theme-l1">
+        <div class="w3-container w3-center lc-row">
+            <h1>LibreCAD Download</h1>
+        </div>
+        <div class="w3-row lc-row">
+            <div class="w3-cell w3-third w3-cell-middle w3-center w3-mobile lc-cell">
+                <i class="fa fa-apple fa-4x lc-text-l3"></i>
+                <h2>macOS</h2>
+                <br><b>Help is needed for macOS deployment.</b>
+                <p><a href="https://sourceforge.net/projects/librecad/files/OSX/" class="lc-hover-l3" target="_blank">
+                    <i class="fa fa-download"></i><span class="lc-icontext"> from SourceForge</span>
+                </a><br>
+                Find latest stable DMG packages there.<br>
+                </p>
+                <p><a href="https://github.com/LibreCAD/LibreCAD/releases" class="lc-hover-l3" target="_blank">
+                    <i class="fa fa-download"></i><span class="lc-icontext"> from GitHub</span>
+                </a><br>
+                    Find latest stable DMG packages there.<br>
+                </p>
+            </div>
+
+            <div class="w3-cell w3-third w3-cell-middle w3-center w3-mobile lc-cell">
+                <i class="fa fa-windows fa-4x lc-text-l3"></i>
+                <h2>Windows</h2>
+                <p><a href="https://sourceforge.net/projects/librecad/files/Windows/" class="lc-hover-l3" target="_blank">
+                    <i class="fa fa-download"></i><span class="lc-icontext"> from SourceForge</span>
+                </a><br>
+                Find latest stable EXE installer there.<br>
+                Also automated nightly build installer for bleeding edge versions.
+                </p>
+                <p><a href="https://github.com/LibreCAD/LibreCAD/releases" class="lc-hover-l3" target="_blank">
+                    <i class="fa fa-download"></i><span class="lc-icontext"> from GitHub</span>
+                </a><br>
+                Find latest stable EXE installer there.<br>
+                Also special pre release installer for beta testing versions.
+            </p>
+            </div>
+
+            <div class="w3-cell w3-third w3-cell-middle w3-center w3-mobile lc-cell">
+                <i class="fa fa-linux fa-4x lc-text-l3"></i>
+                <h2>Linux</h2>
+                <p>Check your distributions preferred packet manager, if <strong>LibreCAD</strong> is available there. But the version may be a bit older.<br><br>
+                For Debian/Ubuntu distributions, you can use our <a href="https://launchpad.net/~librecad-dev" class="lc-hover-l3" target="_blank">Launchpad PPAs <i class="fa fa-external-link"></i></a> for stable or daily versions.<br><br>
+            </div>
+        </div>
+        <div class="w3-row lc-row">
+            <div class="w3-center lc-cell">
+                <i class="fa fa-github fa-4x lc-text-l3"></i>
+                <h2>Build from source</h2>
+                <p><strong>This is an option for all platforms.</strong></p>
+                <p>If we don't have the binary installer you are looking for, you can try to build <strong>LibreCAD</strong> from source code.<br>
+                How this works for each platform can be read in our <a href="http://wiki.librecad.org/index.php?title=Build_from_source" class="lc-hover-l3" target="_blank">Wiki <i class="fa fa-external-link"></i></a>.</p>
+                <p>Source code could be downloaded <a href="https://github.com/LibreCAD/LibreCAD/" class="lc-hover-l3" target="_blank"><i class="fa fa-download"></i><span class="lc-icontext"> from GitHub</span></a> as ZIP archive.</p>
+                <p>Or you can clone or fork our repository, what is recommend if you plan to contribute.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join us -->
+    <section id="joinus" class="w3-section lc-section w3-white">
+        <div class="w3-container w3-center lc-row">
+            <h1>Join LibreCAD Community</h1>
+			<p>The <strong>LibreCAD</strong> team is a small group of dedicated people.
+                Lots of things have been worked out, but plenty of bugs and features are still waiting to be solved.
+                How can you help? We need people that are coders, writers, testers, translators.</p>
+            <p>An open source community is a dynamic thing, people come and go as their private situation drive or stop them in contributing.
+                So it will always help if you have existing resources we can use, know what other projects do in specific areas, or, most important, do what you do best and have fun doing it!<br><br>
+                You don't have to sign a lifetime contract to contribute. If you apply one patch or more, garden the wiki or help others in the forum, our broad user base will appreciate your work.
+            </p>
+            <p><strong>Come join our community, and contribute in any way you like.</strong></p>
+        </div>
+        <div class="w3-row lc-row">
+            <div class="w3-cell w3-third w3-cell-middle w3-center w3-mobile lc-cell">
+                <h2>Developing</h2>
+                <p>If you are a developer, outstanding in C++, or a beginner we can use all the help.<br>
+                    With a bit of determination, the IRC channel, Zulip chat and the Libre-CAD-dev mailing list, we can help you getting started and making progress.<br>
+                    All you need is linked in <a href="#download" class="lc-hover-d3">download section <i class="fa fa-external-link"></i></a> and <a href="#home" class="lc-hover-d3">top links <i class="fa fa-external-link"></i></a> above.
+            </div>
+
+            <div class="w3-cell w3-third w3-cell-middle w3-center w3-mobile lc-cell">
+                <h2>Documentation</h2>
+                <p>Developers are usually bad in making documentation, so if you like making documentation, great!<br>
+                There have been extensive GUI changes in 2.1 series which need to be documented.</p>
+            </div>
+
+            <div class="w3-cell w3-third w3-cell-middle w3-center w3-mobile lc-cell">
+                <h2>Translation</h2>
+                <p>Help localize <strong>LibreCAD</strong>, we currently support over 30 languages.<br>
+                Our translation server is over here: <a href="https://translate.librecad.org/" class="lc-hover-d3" target="_blank">https://translate.librecad.org/ <i class="fa fa-external-link"></i></a>.<br>
+                You can complete new languages, or request creating translations for a new language in the <a href="http://forum.librecad.org/LibreCAD-translate-f5710645.html" class="lc-hover-d3" target="_blank">forum <i class="fa fa-external-link"></i></a>.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Friends and Sponsors -->
+    <section id="sponsors" class="w3-section lc-section w3-theme-l1">
+        <div class="w3-container w3-center lc-row">
+            <h1>LibreCAD Friends and Sponsors</h1>
+			<p>As a non-profit, community driven open source project <strong>LibreCAD</strong> is dependent to have good relations to friends and sponsors.</p>
+        </div>
+        <div class="w3-row lc-row">
+            <div class="w3-cell w3-half w3-center w3-cell-middle w3-mobile lc-cell lc-card">
+                <h2>Friends</h2>
+                <div class="w3-container w3-card-4 w3-theme-l3 w3-left-align">
+                    <a href="http://brlcad.org/" target="_blank" class="w3-hover-opacity lc-hover-l5">
+                    <h3>BRL-CAD</h3>
+                    <img src="/img/brlcad.png" alt="BRL-CAD Logo" class="lc-logo-left">
+                    </a>
+                    <p>BRL-CAD is a powerful open source cross-platform solid modeling system that includes interactive geometry editing,
+                        high-performance ray-tracing for rendering and geometric analysis, a system performance analysis benchmark suite,
+                        geometry libraries for application developers, and more than 30 years of active development.</p>
+                    <p>BRL-CAD and <strong>LibreCAD</strong> collaborate in Google prorams.
+                        We participate under the umbrella of BRL-CAD in <a href="https://codein.withgoogle.com/" target="_blank" class="w3-hover-opacity lc-hover-d5">Google Code-in <i class="fa fa-external-link"></i></a> and <a href="https://summerofcode.withgoogle.com/" target="_blank" class="w3-hover-opacity lc-hover-d5">Google Summer of Code <i class="fa fa-external-link"></i></a>
+                        where we mentor school pupils and students in participating in open source projects.<br>
+
+                    </p>
+                </div>
+            </div>
+            <div class="w3-cell w3-half w3-center w3-cell-middle w3-mobile lc-cell lc-card">
+                <h2>Sponsors</h2>
+                <div class="w3-container w3-card-4 w3-theme-l3 w3-left-align">
+                    <a href="http://www.jetbrains.com/clion/" target="_blank" class="lc-hover-l5">
+                    <h3 style="text-align:right;">JetBrains</h3>
+                    <img src="/img/clion.png" alt="CLion Logo" class="w3-hover-opacity lc-logo-right">
+                    </a>
+                    <p>JetBrains have generously supplied us with CLion licenses for the development of <strong>LibreCAD</strong>. This powerful IDE helps you develop in C and C++ on Linux, OS X and Windows, enhancing your productivity with a smart editor, code quality assurance, automated refactoring, and deep integration with CMake build system.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-theme-d5 w3-padding-16">
+    <small>Unless otherwise specified, all text and images on this website are licensed under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" class="lc-hover-black"><i class="fa fa-creative-commons"></i> Creative Commons Attribution 4.0 License</a> (CC BY 4.0).<br>
+    All trademarks referenced herein are the properties of their respective owners.</small>
+</footer>
+
+</body>
+</html>
