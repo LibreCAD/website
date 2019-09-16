@@ -3,13 +3,13 @@
 body {font-family: "Montserrat",Arial,sans-serif;font-size:18px;}
 
 h1,h2,h3,h4,h5,h6 {font-family: "Montserrat",Arial,sans-serif;}
-h1 {font-size:40px;font-weight:600;letter-spacing:4px;color:#466522;}
-h2 {font-size:30px;font-weight:600;letter-spacing:2px;color:#547a29;overflow:hidden;}
-h3 {font-size:26px;font-weight:600;letter-spacing:1px;}
+h1 {font-size:40px;font-weight:600;color:#466522;}
+h2 {font-size:30px;font-weight:600;color:#547a29;overflow:hidden;}
+h3 {font-size:26px;font-weight:600;}
 a {text-decoration:none;}
 small {font-size:12px;font-weight:400;}
 
-.lc-top {padding:0px 0px !important;letter-spacing:0.05em;}
+.lc-top {padding:0px 0px !important;}
 .lc-content {width:100%;}
 .lc-section {height:auto;padding-top:40px;padding-bottom:16px;}
 .lc-row {width:100%;max-width:1200px;margin:0px auto;padding: 0px 16px;height:content;height:-moz-fit-content;}
@@ -21,7 +21,7 @@ small {font-size:12px;font-weight:400;}
 .lc-logo-left {height:64px;float:left;margin-right:16px;}
 .lc-logo-right {height:64px;float:right;margin-left:16px;}
 
-.lc-icontext {font-family: "Montserrat",Arial,sans-serif;font-size:24px;font-weight:600;letter-spacing:0.01em;}
+.lc-icontext {font-family: "Montserrat",Arial,sans-serif;font-size:24px;font-weight:600;}
 .lc-vmiddle {vertical-align: middle;}
 .lc-hover-white:hover {color:#fff !important}
 .lc-hover-black:hover {color:#000 !important}
