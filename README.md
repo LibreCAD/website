@@ -1,6 +1,6 @@
 # LibreCAD website
 
-This is the main website for [LibreCAD](http://www.librecad.org).
+This is the main website for [LibreCAD](https://librecad.org).
 
 It was redesigned to meet modern requirements. It's a onepager responsive layout with a fixed top nav bar.
 
