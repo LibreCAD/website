@@ -13,22 +13,33 @@
 
 <!-- Navbar (fixed on top) -->
 <div class="w3-top">
-  <div class="w3-bar w3-theme-l3 w3-padding w3-card lc-top">
-    <!-- Right-sided navbar links. Hide them on small screens -->
-    <div class="w3-left">
-        <a href="#home" class="w3-bar-item w3-button w3-hover-theme">
-            <img src="/img/logo.png" alt="LibreCAD Logo" width="150">
-        </a>
+    <div class="w3-bar w3-theme-l3 w3-padding w3-card lc-top">
+        <a class="w3-bar-item w3-button w3-hover-theme w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <div class="w3-left">
+            <a href="#" class="w3-bar-item w3-button w3-hover-theme">
+                <img src="/img/logo.png" alt="LibreCAD Logo" width="150">
+            </a>
+        </div>
+        <!-- Right-sided navbar links on large screens -->
+        <div class="w3-right w3-hide-small w3-hide-medium">
+            <a href="#" class="w3-bar-item w3-button w3-hover-theme">Home</a>
+            <a href="#about" class="w3-bar-item w3-button w3-hover-theme">About</a>
+            <a href="#features" class="w3-bar-item w3-button w3-hover-theme">Features</a>
+            <a href="#download" class="w3-bar-item w3-button w3-hover-theme">Download</a>
+            <a href="#joinus" class="w3-bar-item w3-button w3-hover-theme">Join us</a>
+            <a href="#sponsors" class="w3-bar-item w3-button w3-hover-theme">Friends &amp; Sponsors</a>
+        </div>
     </div>
-    <div class="w3-right w3-hide-small w3-hide-medium">
-        <a href="#home" class="w3-bar-item w3-button w3-hover-theme">Home</a>
-        <a href="#about" class="w3-bar-item w3-button w3-hover-theme">About</a>
-        <a href="#features" class="w3-bar-item w3-button w3-hover-theme">Features</a>
-        <a href="#download" class="w3-bar-item w3-button w3-hover-theme">Download</a>
-        <a href="#joinus" class="w3-bar-item w3-button w3-hover-theme">Join us</a>
-        <a href="#sponsors" class="w3-bar-item w3-button w3-hover-theme">Friends &amp; Sponsors</a>
-    </div>
-  </div>
+</div>
+
+<!-- Navbar icon not shown on large screen (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block  w3-theme-l3 w3-hide w3-hide-large w3-top" style="margin-top:46px">
+    <a href="#" class="w3-bar-item w3-button w3-hover-theme" onclick="myFunction()">Home</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hover-theme" onclick="myFunction()">About</a>
+    <a href="#features" class="w3-bar-item w3-button w3-hover-theme" onclick="myFunction()">Features</a>
+    <a href="#download" class="w3-bar-item w3-button w3-hover-theme" onclick="myFunction()">Download</a>
+    <a href="#joinus" class="w3-bar-item w3-button w3-hover-theme" onclick="myFunction()">Join Us</a>
+    <a href="#sponsors" class="w3-bar-item w3-button w3-hover-theme" onclick="myFunction()">Friends & Sponsors</a>
 </div>
 
 <!-- Page content -->
@@ -266,6 +277,18 @@
     <small>Unless otherwise specified, all text and images on this website are licensed under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" class="lc-hover-black"><i class="fa fa-creative-commons"></i> Creative Commons Attribution 4.0 License</a> (CC BY 4.0).<br>
     All trademarks referenced herein are the properties of their respective owners.</small>
 </footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
 
 </body>
 </html>
