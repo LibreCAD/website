@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>LibreCAD - PCBWay Upload</title>
+</head>
+<body>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://librecad.org/css/w3.css">
+  <link rel="stylesheet" href="https://librecad.org/css/w3-theme-light-green.css">
+  <link rel="stylesheet" href="https://librecad.org/css/librecad.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+  <body>
+  <!-- Page content -->
+  <div class="lc-content">
+    <h1>LibreCAD - <img src="/img/pcbway.png" alt="PCBWay Logo" class="w3-hover-opacity"></img> Upload</h1>
+
+    <!-- Upload Form -->
+    <section id="upload" class="w3-section lc-section">
+        <div class="w3-theme-d4 lc-links lc-text-l4">
+            <div class="w3-row lc-row">
+                <div class="w3-cell w3-cell-middle w3-center w3-mobile lc-cell">
+                    <p>Upload your DXF file to PCBWay and get an instant quote for your request!<br>
+                    <form action="https://www.pcbway.com/common/librecadupfile" method="post" enctype="multipart/form-data">
+                        Select DXF file to upload: <input type="file" name="cadfile" id="cadfile"><br><br>
+                        <input type="submit" value="Upload DXF" name="submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="backlink" class="w3-section lc-section w3-theme-l1">
+            <div class="w3-container w3-row lc-row w3-center">
+                <div class="w3-cell w3-cell-middle w3-center w3-mobile lc-cell">
+                    <p><a href="/" class="lc-hover-l3" target="_blank"><strong>back </strong><i class="fa fa-external-link"></i></a>
+                </div>
+            </div>
+    </section>
+  </div>
+</body>
+</html>
