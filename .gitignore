@@ -1,2 +1,6 @@
 
 tmp/*
+
+# Visual Code files
+.vscode
+*.code-workspace
