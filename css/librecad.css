@@ -20,6 +20,7 @@ small {font-size:12px;font-weight:400;}
 
 .lc-logo-left {height:64px;float:left;margin-right:16px;}
 .lc-logo-right {height:64px;float:right;margin-left:16px;}
+.lc-logo-right-landscape {height:36px;float:right;margin-left:16px;}
 
 .lc-icontext {font-family: "Montserrat",Arial,sans-serif;font-size:24px;font-weight:600;letter-spacing:0.01em;}
 .lc-vmiddle {vertical-align: middle;}
